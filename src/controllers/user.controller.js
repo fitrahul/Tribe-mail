@@ -24,8 +24,8 @@ route.post("", async (req, res) => {
             from: "rahulee19@gmail.com",
             to: `${user.email}`,
             subject: "Signup",
-            text: "You account is successfully created",
-            html: "<p>You account is successfully created</p>"
+            text: "Your account is successfully created",
+            html: "<p>Your account is successfully created</p>"
         };
 
         var transporter = nodemailer.createTransport({
